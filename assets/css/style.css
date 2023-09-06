@@ -1,7 +1,7 @@
 /*   
     font-family: 'Lato', sans-serif;
     font-family: 'Oswald', sans-serif;
-*/    
+*/
 /* Asterisk wildcard selector to override default styles add by the browser*/
 * {
     padding: 0;
@@ -22,24 +22,31 @@ body {
 /* Header */
 header {
     background-color: #ffffff;
-    padding:0 1rem;
+    padding: 0 1rem;
     position: fixed;
     z-index: 99;
-    width:100%;
+    width: 100%;
     box-shadow: 0 2px 2px #3a3a3a;
 }
 
-header a{
-        text-decoration: none;
-        color:inherit;
+header a {
+    text-decoration: none;
+    color: inherit;
 }
 
-h1{
+h1 {
     font-family: 'Oswald', sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
     color: #252525;
 }
+
+#menu {
+    font-size: 110%;
+    letter-spacing: 4px;
+    list-style-type: none;
+}
+
 /* Main */
 main {
     background-color: lightblue;
