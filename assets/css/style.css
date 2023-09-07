@@ -2,19 +2,19 @@
     font-family: 'Lato', sans-serif;
     font-family: 'Oswald', sans-serif;
 */
-/* Asterisk wildcard selector to override default styles add by the browser*/
+/* Asterisk wildcard selector to override default styles added by the browser */
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
-/* General Styles*/
+/* General styles */
 body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    /*Generic project styles*/
+    /* Generic project styles */
     color: #3a3a3a;
     font-family: 'Lato', sans-serif;
 }
@@ -50,7 +50,7 @@ h1 {
     list-style-type: none;
 }
 
-#menu>li {
+#menu > li {
     margin-bottom: 1em;
 }
 
@@ -58,7 +58,7 @@ h1 {
     border-bottom: 1px solid #3a3a3a;
 }
 
-/*Navbar styles with dropdown toggle*/
+/* Navbar styles with dropdown toggle */
 nav {
     position: absolute;
     background-color: #ffffff;
@@ -68,10 +68,9 @@ nav {
     box-shadow: 0 2px 2px #3a3a3a;
     display: none;
     top: 100%;
-
 }
 
-/*nav toggle*/
+/* Nav toggle */
 #nav-toggle:checked~nav {
     display: block;
 }
@@ -84,15 +83,15 @@ nav {
     font-size: 2rem;
 }
 
-/* Main */
+/* Main content */
 main {
     background-color: lightblue;
-    /* Make main elenent take up any unused space to push footer down*/
+    /* Make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
     margin-top: 47px;
 }
 
 /* Footer */
 footer {
-    background-color: lightseagreen;
+    background-color: orange;
 }
